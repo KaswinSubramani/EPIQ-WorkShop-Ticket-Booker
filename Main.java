@@ -49,6 +49,14 @@ public class Main {
                         if(st.equalsIgnoreCase("yes")) {
                             booking.add(book);
                             System.out.println("Your Booking is Comfirmed");
+                            book.bookedDetails(workshop);
+                            System.out.println("Booking Details : ");
+                            System.out.println("\tName : \" "+name+" \"");
+                            System.out.println("\tDate : \" "+book.date+" \"");
+                            System.out.println("\tWorkShop Name : \" "+book.workName+" \"");
+                            System.out.println("\tCollege Name : \" "+book.CollegeName+" \"");
+                            System.out.println("\tTicket's Count : \" "+book.Count()+" \"");
+                            System.out.println("\tTicket's Total Price : \" Rs:"+book.price+" \"");
                         }else if(st.equalsIgnoreCase("no")){
                             return;
                         }
@@ -71,6 +79,14 @@ public class Main {
                         if(st.equalsIgnoreCase("yes")) {
                             booking.add(book);
                             System.out.println("Your Booking is Comfirmed");
+                            book.bookedDetails1(workshop1);
+                            System.out.println("Booking Details : ");
+                            System.out.println("\tName : \" "+name+" \"");
+                            System.out.println("\tDate : \" "+book.date+" \"");
+                            System.out.println("\tWorkShop Name : \" "+book.workName+" \"");
+                            System.out.println("\tCollege Name : \" "+book.CollegeName+" \"");
+                            System.out.println("\tTicket's Count : \" "+book.Count()+" \"");
+                            System.out.println("\tTicket's Total Price : \" Rs:"+book.price+" \"");
                         }else if(st.equalsIgnoreCase("no")){
                             return;
                         }
@@ -93,6 +109,14 @@ public class Main {
                         if(st.equalsIgnoreCase("yes")) {
                             booking.add(book);
                             System.out.println("Your Booking is Comfirmed");
+                            book.bookedDetails2(workshop2);
+                            System.out.println("Booking Details : ");
+                            System.out.println("\tName : \" "+name+" \"");
+                            System.out.println("\tDate : \" "+book.date+" \"");
+                            System.out.println("\tWorkShop Name : \" "+book.workName+" \"");
+                            System.out.println("\tCollege Name : \" "+book.CollegeName+" \"");
+                            System.out.println("\tTicket's Count : \" "+book.Count()+" \"");
+                            System.out.println("\tTicket's Total Price : \" Rs:"+book.price+" \"");
                         }else if(st.equalsIgnoreCase("no")){
                             return;
                         }
