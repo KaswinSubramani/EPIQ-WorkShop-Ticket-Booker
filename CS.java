@@ -1,4 +1,3 @@
-import java.util.*;
 public class CS {
     String workName;
     String CollegeName;
